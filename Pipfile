@@ -4,8 +4,8 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [packages]
-flow = {editable = true, extras = ["notebook"], path = "."}
-jupyter-book = "*"
+jupyter-book = "*" 
+pexpect = "*" # Necessary for jupyter-book on linux
 
 [dev-packages]
 black = "*"
@@ -18,7 +18,7 @@ mypy-extensions = "*"
 pytest = "*"
 pytest-cov = "*"
 pytest-timeout = "*"
-sphinx-autoapi = "*"
+# sphinx-autoapi = "*"
 sphinxcontrib-mermaid = "*"
 wheel = "*"
 
