@@ -1,0 +1,48 @@
+name: Documentation
+
+on:
+  pull_request:
+    types: [opened, reopened, synchronize]
+
+jobs:
+  build:
+    environment: github-actions
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: actions/setup-python@v4
+        with:
+          python-version: 3.11
+          cache: pipenv
+
+      - name: "Set-up virtual env"
+        shell: bash
+        run: |
+          pip install pipenv
+          pipenv sync --dev
+
+      - name: Build docs
+        shell: bash
+        run: |
+          source $(pipenv --venv)/bin/activate
+          pip install -e . --no-deps
+          pipenv run jb build doc
+          touch doc/_build/html/.nojekyll
+
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: doc/_build/html # The folder the action should deploy.
+
+      # - name: Publish docs to flow-docs
+      #   uses: cpina/github-action-push-to-another-repository@main
+      #   env:
+      #     SSH_DEPLOY_KEY: ${{ secrets.SSH_DEPLOY_KEY }}
+      #   with:
+      #     source-directory: "doc/_build/html"
+      #     destination-github-username: "Enodis"
+      #     destination-repository-name: "flow-docs"
+      #     user-email: wim.yedema@gmail.com
+      #     target-branch: main

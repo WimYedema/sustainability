@@ -1,0 +1,26 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[packages]
+flow = {editable = true, extras = ["notebook"], path = "."}
+jupyter-book = "*"
+
+[dev-packages]
+black = "*"
+flake8 = "*"
+flake8-eradicate = "*"
+flake8-print = "*"
+jupyter-book = "*"
+mypy = "*"
+mypy-extensions = "*"
+pytest = "*"
+pytest-cov = "*"
+pytest-timeout = "*"
+sphinx-autoapi = "*"
+sphinxcontrib-mermaid = "*"
+wheel = "*"
+
+[requires]
+python_version = "3.11"
