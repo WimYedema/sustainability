@@ -32,7 +32,10 @@ jobs:
           pip install -e . --no-deps
           pipenv run jb build doc
           touch doc/_build/html/.nojekyll
-          mv doc/_build/html github-pages
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v2
+        with:
+          path: doc/_build/html
 
   deploy:
     environment:
