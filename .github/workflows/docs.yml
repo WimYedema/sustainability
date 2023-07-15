@@ -34,7 +34,8 @@ jobs:
           touch doc/_build/html/.nojekyll
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v2
-        path: doc/_build/html
+        with:
+          path: doc/_build/html
 
   deploy:
     environment:
