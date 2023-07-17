@@ -30,13 +30,6 @@ repository:
 html:
   use_issues_button: true
   use_repository_button: true
-  comments:
-    utterances:
-      repo: WimYedema/sustainability
-      issue-term: "pathname"
-      label: "comment"
-      theme: "github-light"
-      crossorigin: "anonymous"
 
 parse:
   myst_enable_extensions: # default extensions to enable in the myst parser. See https://myst-parser.readthedocs.io/en/latest/using/syntax-optional.html

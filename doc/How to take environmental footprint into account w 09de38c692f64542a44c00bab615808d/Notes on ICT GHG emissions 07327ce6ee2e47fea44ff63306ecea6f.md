@@ -1,0 +1,13 @@
+# Notes on ICT GHG emissions
+
+1. [UNEP DTU, 2020](https://www.notion.so/UNEP-DTU-2020-236865478a2a4eaf9726b008d9d93b05?pvs=21) ICT share of GHG emission between 2-6%. ICT is part of the problems and part of the solution. [Benqassem et al., 2021](https://www.notion.so/Benqassem-et-al-2021-46cd1d0489b54de3b6cc10be838a027f?pvs=21) paints a more complete picture of the complete ecological impact of ICT with a focus on Europe. They report manufacturing has the largest impact not because of GHG emissions, but because of mineral use. In usage GHG emissions does have the largest impact. This study is much more rigorous than the yearly report of [WeNR 2021 | Release of the Public Report, 2021](https://www.notion.so/WeNR-2021-Release-of-the-Public-Report-2021-fa3847ef144e4ab195b7fefd85045f26?pvs=21) and show some stark differences.
+2. It is good to put carbon footprint of compute in perspective with overall ICT carbon footprint. According to [WeNR 2021 | Release of the Public Report, 2021](https://www.notion.so/WeNR-2021-Release-of-the-Public-Report-2021-fa3847ef144e4ab195b7fefd85045f26?pvs=21) 87.5% of GHG
+emissions are due to manufacturing, with office equipment 77.4% and data centers 10.1%. ICT usage is significantly less, with 6.8% due to datacenter usage and 5.7% due to office equipment usage. 
+Unfortunately the report does not include emissions due to IoT manufacturing and use. Without other sources we are left to assume similar numbers, but it does raise questions.
+This strongly suggests that sustainable solutions should focus on minimizing equipment and re-using existing equipment.
+    1. What type of organizations took part in the [WeNR 2021 | Release of the Public Report, 2021](https://www.notion.so/WeNR-2021-Release-of-the-Public-Report-2021-fa3847ef144e4ab195b7fefd85045f26?pvs=21) study?
+    2. Why was IoT equipment, and other edge equipment not taken into account?
+    
+    Are these numbers inline with [Belkhir & Elmeligi, 2018](https://www.notion.so/Belkhir-Elmeligi-2018-6494741040b54fc6b9c71444957a0712?pvs=21)?
+    
+3. It is strange that on-premise compute is regarded as less sustainable than cloud compute [[Walsh, 2020](https://www.notion.so/Walsh-2020-6d3d9001a8384b6fb53c14d193ef17dd?pvs=21), [Bizo, 2019](https://www.notion.so/Bizo-2019-51555a2e81ef45df96335a58462b3c88?pvs=21)], while at the same time edge computing is seen as a way to become more sustainable.

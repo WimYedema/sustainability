@@ -6,6 +6,7 @@ verify_ssl = true
 [packages]
 jupyter-book = "*" 
 pexpect = "*" # Necessary for jupyter-book on linux
+pandas = "*"
 
 [dev-packages]
 black = "*"
