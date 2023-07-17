@@ -18,9 +18,8 @@
 8. There are some terms that need to be clearly understood in this domain [[Gill & Smith, 2018](https://www.notion.so/Gill-Smith-2018-dfb47e769f3a49f9a038e36efc310212?pvs=21) ]:
 
     
-    ![From [Gill & Smith, 2018](https://www.notion.so/Gill-Smith-2018-dfb47e769f3a49f9a038e36efc310212?pvs=21) ](Notes%20on%20edge%20computing%205e89c7e172144a3f8179e6c73c107dab/Untitled.png)
+    ![From [Gill & Smith, 2018](https://www.notion.so/Gill-Smith-2018-dfb47e769f3a49f9a038e36efc310212?pvs=21) ](Notes-on-edge-computing/gartner-edge-computing.png)
     
-    From [Gill & Smith, 2018](https://www.notion.so/Gill-Smith-2018-dfb47e769f3a49f9a038e36efc310212?pvs=21) 
     
     | Term | Description | Examples |
     | --- | --- | --- |
@@ -48,6 +47,6 @@
     | Mist computing | Fog computing but with low computational resources. |  |
     | Mobile edge compute (MEC) |  |  |
     
-    ![From [Iorga et al., 2018](https://www.notion.so/Iorga-et-al-2018-91b7128306cd468cb578c494216c624c?pvs=21) ](Notes%20on%20edge%20computing%205e89c7e172144a3f8179e6c73c107dab/Untitled%201.png)
+    ![From [Iorga et al., 2018](https://www.notion.so/Iorga-et-al-2018-91b7128306cd468cb578c494216c624c?pvs=21) ](Notes-on-edge-computing/fog-computing.png)
     
     From [Iorga et al., 2018](https://www.notion.so/Iorga-et-al-2018-91b7128306cd468cb578c494216c624c?pvs=21)

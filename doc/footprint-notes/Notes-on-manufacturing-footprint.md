@@ -30,17 +30,17 @@
 
 - PEF: Product Environmental Footprint
 - OEF: Organisation Environmental Footprint
-- Refers to [PEF method](Notes%20on%20manufacturing%20footprint%202524fcee6efd4a45a6ff231cd0b69f3b.md)
+- Refers to [PEF method](Notes-on-manufacturing-footprint.md)
 - helping companies to calculate their environmental performance based on reliable, verifiable and comparable information
 - It also allows [public administrations, NGOs, business partners, …] to have access to such [environmental performance]
-- Refers to [Understanding PEF and OEF methods](Notes%20on%20manufacturing%20footprint%202524fcee6efd4a45a6ff231cd0b69f3b.md)
+- Refers to [Understanding PEF and OEF methods](Notes-on-manufacturing-footprint.md)
 
 ## Understanding PEF and OEF methods
 
 [](https://circabc.europa.eu/ui/group/6e9b7f79-da96-4a53-956f-e8f62c9d7fed/library/537534a4-9c76-40a1-b488-e9127db2befd/details?download=true)
 
-- The Environmental Footprint method builds on ISO 14040 ([ISO 14040 ****Environmental management — Life cycle assessment — Principles and framework****](Notes%20on%20manufacturing%20footprint%202524fcee6efd4a45a6ff231cd0b69f3b.md))
-- Refers to PEF: [PEF method](Notes%20on%20manufacturing%20footprint%202524fcee6efd4a45a6ff231cd0b69f3b.md)
+- The Environmental Footprint method builds on ISO 14040 ([ISO 14040 ****Environmental management — Life cycle assessment — Principles and framework****](Notes-on-manufacturing-footprint.md))
+- Refers to PEF: [PEF method](Notes-on-manufacturing-footprint.md)
 - Refers to OEF: [https://eplca.jrc.ec.europa.eu/permalink/OEF_method.pdf](https://eplca.jrc.ec.europa.eu/permalink/OEF_method.pdf)
 - EPLCA: European Platform on Life Cycle Assessment
 - On LCA:
@@ -58,7 +58,7 @@ indicator results relatively to a reference system.
 - **Weighting** is the process of converting normalised results of the different impact categories by using numerical factors *based on the expressed relative importance of the impact categories considered*.
     - Refers to [This mostly documents how to create PEF/OEF data sets, not particularly useful for me.](https://www.notion.so/This-mostly-documents-how-to-create-PEF-OEF-data-sets-not-particularly-useful-for-me-8950e0a3c0f74595af5d0c4810cd150a?pvs=21)
 
-![Untitled](Notes%20on%20manufacturing%20footprint%202524fcee6efd4a45a6ff231cd0b69f3b/Untitled.png)
+![Untitled](Notes-on-manufacturing-footprint/impact-assessment.png)
 
 - Refers to PEFCR for IT equipment (the link is incorrect and cannot find it anywhere)
 
@@ -71,7 +71,7 @@ indicator results relatively to a reference system.
 - **4.4.2 Electricity use** defines how to account for electricity in various situations, like one product multiple locations.
 - **4.4.8.1 The Circular Footprint Formula.** How to compute the footprint of a product
     
-    ![Untitled](Notes%20on%20manufacturing%20footprint%202524fcee6efd4a45a6ff231cd0b69f3b/Untitled%201.png)
+    ![Untitled](Notes-on-manufacturing-footprint/circular-footprint-formula.png)
     
     <aside>
     💡 This needs more in-depth study

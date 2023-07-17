@@ -5,5 +5,9 @@ format: jb-book
 root: intro
 chapters:
 - file: footprint
+  sections:
+  - file: footprint-notes/Notes-on-edge-computing
+  - file: footprint-notes/Notes on manufacturing footprint
+  - file: footprint-notes/Notes on ICT GHG emissions
 - file: equipment-lifecycle
 - file: bibliography

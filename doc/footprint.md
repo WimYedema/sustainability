@@ -142,20 +142,16 @@ However, don’t fix that ain’t broken, because it costs 20 years to earn back
 
 Is this not just a LCA? No, given a LCA, how can we incorporate this in a software design? Mainly about lifespans.
 
-[Fictional examples](How%20to%20take%20environmental%20footprint%20into%20account%20w%2009de38c692f64542a44c00bab615808d/Fictional%20examples%20a9dc3f20c0c5432398f682ace89a1a74.csv)
-
 ## Notes
 
-[Notes on ICT GHG emissions](How%20to%20take%20environmental%20footprint%20into%20account%20w%2009de38c692f64542a44c00bab615808d/Notes%20on%20ICT%20GHG%20emissions%2007327ce6ee2e47fea44ff63306ecea6f.md)
+[Notes on ICT GHG emissions](footprint-notes/Notes-on-ICT-GHG-emissions.md)
 
-[Notes on edge computing](How%20to%20take%20environmental%20footprint%20into%20account%20w%2009de38c692f64542a44c00bab615808d/Notes%20on%20edge%20computing%205e89c7e172144a3f8179e6c73c107dab.md)
+[Notes on edge computing](footprint-notes/Notes-on-edge-computing.md)
 
-[Notes on manufacturing footprint](How%20to%20take%20environmental%20footprint%20into%20account%20w%2009de38c692f64542a44c00bab615808d/Notes%20on%20manufacturing%20footprint%202524fcee6efd4a45a6ff231cd0b69f3b.md)
+[Notes on manufacturing footprint](footprint-notes/Notes-on-manufacturing-footprint.md)
 
 1. Edge and fog computing focuses on minimizing latency, but in real-time situations the latency often does not need to be as small as possible, it just means that there are deadlines that need to be met. **What gains could we get from making edge/fog computing deadline-aware?**
     1. Could SDF be used for this?
 2. https://link.medium.com/iOW6q3XrLzb
 
 Wel of niet vervangen in scope? Waarschijnlijk niet.
-
-[Fictional devices](How%20to%20take%20environmental%20footprint%20into%20account%20w%2009de38c692f64542a44c00bab615808d/Fictional%20devices%20737af07349b5463f927976a5660abd3e.csv)
