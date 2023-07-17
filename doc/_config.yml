@@ -73,4 +73,7 @@ sphinx:
     # autoapi_keep_files: True
     suppress_warnings:
       - "etoc.toctree"
+      - "mystnb.unknown_mime_type"
     #nb_number_source_lines: True
+    html_js_files: # to make plotly work
+    - https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js
