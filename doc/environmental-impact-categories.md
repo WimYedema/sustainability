@@ -1,6 +1,16 @@
 # Environmental impact categories
 
-The categories described here are defined in {cite}`damianiunderstanding`, {cite}`salaDevelopmentWeightingApproach2018`, {cite}`fazioSupportingInformationCharacterisation2019`. The fields are {todo}`verify the description`:
+The table below lists the environmental impact categories recognized by the EU
+and their weighting and normalization factors:
+
+```{csv-table}
+:file: environmental-impact-categories.csv
+:header-rows: 1
+```
+
+These categories are defined in {cite}`damianiunderstanding`,
+{cite}`salaDevelopmentWeightingApproach2018`,
+{cite}`fazioSupportingInformationCharacterisation2019`. The sections below gives a bit more detail {todo}`[verify the description]`:
 
 :Description: From {cite}`damianiunderstanding`
 :EF characterization model: How the category was arrived at, from {cite}`fazioSupportingInformationCharacterisation2019`
@@ -8,22 +18,8 @@ The categories described here are defined in {cite}`damianiunderstanding`, {cite
 :Normalization Factor: Factor to apply to normalize with other categories, from {cite}`salaDevelopmentWeightingApproach2018`
 :Unit: Unit of measurement, from {cite}`damianiunderstanding`
 :Unit description: Description of the unit, from {cite}`damianiunderstanding`
-:Weight: Importance of this category among the other categories, from {cite}`salaDevelopmentWeightingApproach2018`
-:Weight (ex toxicity): Importance of this category among the other categories when the toxicity categories are excluded, from {cite}`salaDevelopmentWeightingApproach2018`
-
-## Acidification
-
-Acidification from air, water, and soil emissions (primarily sulfur compounds)
-mainly due to combustion processes in electricity generation, heating, and
-transport
-
-:EF characterization model: Accumulated Exceedance model
-:Model source: Seppala et al., 2006; Posch et al., 2008
-:Normalization Factor: 55.6
-:Unit: mol H+ eq
-:Unit description: Accumulated Exceedance – AE
-:Weight: 6.2
-:Weight (ex toxicity): 6.64
+:Weight: Importance in percent of this category among the other categories, from {cite}`salaDevelopmentWeightingApproach2018`
+:Weight (ex toxicity): Importance in percent of this category among the other categories when the toxicity categories are excluded, from {cite}`salaDevelopmentWeightingApproach2018`
 
 ## Climate change, total
 
@@ -38,91 +34,43 @@ emissions (GHG)
 :Weight: 21.06
 :Weight (ex toxicity): 22.19
 
-## Ecotoxicity, freshwater
+## Particulate matter
 
-Impact of toxic substances on freshwater ecosystems
+Impact on human health caused by particulate matter emissions and its precursors
+(e.g. sulfur and nitrogen oxides)
 
-:EF characterization model: USEtox model
-:Model source: based on USEtox2.1 model (Fantke et al. 2017), adapted as in Saouter et al., 2018
-:Normalization Factor: 42700
-:Unit: CTUe
-:Unit description: Comparative Toxic Unit for ecosystems
-:Weight: 1.92
+:EF characterization model: PM model
+:Model source: Fantke et al., 2016 in UNEP 2016
+:Normalization Factor: 0.000595
+:Unit: disease incidences
+:Unit description: Impact on human health
+:Weight: 8.96
+:Weight (ex toxicity): 9.54
 
-## Eutrophication, freshwater
+## Water use
 
-Eutrophication and potential impact on ecosystems caused by nitrogen and
-phosphorous emissions mainly due to fertilizers, combustion, sewage systems
+Depletion of available water depending on local water scarcity and water needs
+for human activities and ecosystem integrity
 
-:EF characterization model: EUTREND model
-:Model source: Struijs et al., 2009 as applied in ReCiPe 2008
-:Normalization Factor: 1.61
-:Unit: kg P eq
-:Unit description: Fraction of nutrients reaching freshwater end compartment
-:Weight: 2.8
-:Weight (ex toxicity): 2.95
+:EF characterization model: AWARE model
+:Model source: Boulay et al., 2018; UNEP 2016
+:Normalization Factor: 11500
+:Unit: m3 water eq of deprived water (Regionalised CFs)
+:Unit description: Weighted user deprivation potential
+:Weight: 8.51
+:Weight (ex toxicity): 9.03
 
-## Eutrophication, marine
+## Resource use, fossils
 
-Eutrophication and potential impact on ecosystems caused by nitrogen and
-phosphorous emissions mainly due to fertilizers, combustion, sewage systems
+Depletion of non-renewable resources and deprivation for future generations
 
-:EF characterization model: EUTREND model
-:Model source: Struijs et al., 2009 as applied in ReCiPe 2008
-:Normalization Factor: 19.5
-:Unit: kg N eq
-:Unit description: Fraction of nutrients reaching marine end compartment
-:Weight: 2.96
-:Weight (ex toxicity): 3.12
-
-## Eutrophication, terrestrial
-
-Eutrophication and potential impact on ecosystems caused by nitrogen and
-phosphorous emissions mainly due to fertilizers, combustion, sewage systems
-
-:EF characterization model: Accumulated Exceedance model
-:Model source: Seppala et al., 2006; Posch et al., 2008
-:Normalization Factor: 177
-:Unit: mol N eq
-:Unit description: Accumulated Exceedance – AE
-:Weight: 3.71
-:Weight (ex toxicity): 3.91
-
-## Human toxicity, cancer
-
-Impact on human health caused by absorbing substances through the air, water,
-and soil. Direct effects of products on humans are not measured
-
-:EF characterization model: USEtox model
-:Model source: based on USEtox2.1 model (Fantke et al. 2017), adapted as in Saouter et al., 2018
-:Normalization Factor: 0.0000169
-:Unit: CTUh
-:Unit description: Comparative Toxic Unit for humans
-:Weight: 2.13
-
-## Human toxicity, non-cancer
-
-Impact on human health caused by absorbing substances through the air, water,
-and soil. Direct effects of products on humans are not measured
-
-:EF characterization model: USEtox model
-:Model source: based on USEtox2.1 model (Fantke et al. 2017), adapted as in Saouter et al., 2018
-:Normalization Factor: 0.00023
-:Unit: CTUh
-:Unit description: Comparative Toxic Unit for humans
-:Weight: 1.84
-
-## Ionising radiation, human health
-
-Impact of exposure to ionising radiations on human health
-
-:EF characterization model: Human Health effect model
-:Model source: Frischknecht et al, 2000 (as developed by Dreicer et al. 1995)
-:Normalization Factor: 4220
-:Unit: kBq U-235 eq.
-:Unit description: Human exposure efficiency relative to U-235
-:Weight: 5.01
-:Weight (ex toxicity): 5.37
+:EF characterization model: CML 2002 model - Abiotic Depletion Potential (ADP) fossil
+:Model source: van Oers et al., 2002 as in CML 2002 method, v.4.8
+:Normalization Factor: 65000
+:Unit: MJ
+:Unit description: Abiotic resource depletion, fossil fuels – ADP-fossil
+:Weight: 8.32
+:Weight (ex toxicity): 8.92
 
 ## Land use
 
@@ -138,6 +86,18 @@ filtration capacity, permeability
 :Weight: 7.94
 :Weight (ex toxicity): 8.42
 
+## Resource use, minerals and metals
+
+Depletion of non-renewable resources and deprivation for future generations
+
+:EF characterization model: ML2002 model - Abiotic Depletion Potential (ADP) ultimate reserve
+:Model source: van Oers et al., 2002 as in CML 2002 method, v.4.8
+:Normalization Factor: 0.0636
+:Unit: kg Sb eq
+:Unit description: Abiotic resource depletion – ADP ultimate reserves
+:Weight: 7.55
+:Weight (ex toxicity): 8.08
+
 ## Ozone depletion
 
 Depletion of the stratospheric ozone layer protecting from hazardous ultraviolet
@@ -151,18 +111,31 @@ radiation
 :Weight: 6.31
 :Weight (ex toxicity): 6.75
 
-## Particulate matter
+## Acidification
 
-Impact on human health caused by particulate matter emissions and its precursors
-(e.g. sulfur and nitrogen oxides)
+Acidification from air, water, and soil emissions (primarily sulfur compounds)
+mainly due to combustion processes in electricity generation, heating, and
+transport
 
-:EF characterization model: PM model
-:Model source: Fantke et al., 2016 in UNEP 2016
-:Normalization Factor: 0.000595
-:Unit: disease incidences
-:Unit description: Impact on human health
-:Weight: 8.96
-:Weight (ex toxicity): 9.54
+:EF characterization model: Accumulated Exceedance model
+:Model source: Seppala et al., 2006; Posch et al., 2008
+:Normalization Factor: 55.6
+:Unit: mol H+ eq
+:Unit description: Accumulated Exceedance – AE
+:Weight: 6.2
+:Weight (ex toxicity): 6.64
+
+## Ionising radiation, human health
+
+Impact of exposure to ionising radiations on human health
+
+:EF characterization model: Human Health effect model
+:Model source: Frischknecht et al, 2000 (as developed by Dreicer et al. 1995)
+:Normalization Factor: 4220
+:Unit: kBq U-235 eq.
+:Unit description: Human exposure efficiency relative to U-235
+:Weight: 5.01
+:Weight (ex toxicity): 5.37
 
 ## Photochemical ozone formation, human health
 
@@ -177,39 +150,77 @@ emissions
 :Weight: 4.78
 :Weight (ex toxicity): 5.1
 
-## Resource use, fossils
+## Eutrophication, terrestrial
 
-Depletion of non-renewable resources and deprivation for future generations
+Eutrophication and potential impact on ecosystems caused by nitrogen and
+phosphorous emissions mainly due to fertilizers, combustion, sewage systems
 
-:EF characterization model: CML 2002 model - Abiotic Depletion Potential (ADP) fossil
-:Model source: van Oers et al., 2002 as in CML 2002 method, v.4.8
-:Normalization Factor: 65000
-:Unit: MJ
-:Unit description: Abiotic resource depletion, fossil fuels – ADP-fossil
-:Weight: 8.32
-:Weight (ex toxicity): 8.92
+:EF characterization model: Accumulated Exceedance model
+:Model source: Seppala et al., 2006; Posch et al., 2008
+:Normalization Factor: 177
+:Unit: mol N eq
+:Unit description: Accumulated Exceedance – AE
+:Weight: 3.71
+:Weight (ex toxicity): 3.91
 
-## Resource use, minerals and metals
+## Eutrophication, marine
 
-Depletion of non-renewable resources and deprivation for future generations
+Eutrophication and potential impact on ecosystems caused by nitrogen and
+phosphorous emissions mainly due to fertilizers, combustion, sewage systems
 
-:EF characterization model: ML2002 model - Abiotic Depletion Potential (ADP) ultimate reserve
-:Model source: van Oers et al., 2002 as in CML 2002 method, v.4.8
-:Normalization Factor: 0.0636
-:Unit: kg Sb eq
-:Unit description: Abiotic resource depletion – ADP ultimate reserves
-:Weight: 7.55
-:Weight (ex toxicity): 8.08
+:EF characterization model: EUTREND model
+:Model source: Struijs et al., 2009 as applied in ReCiPe 2008
+:Normalization Factor: 19.5
+:Unit: kg N eq
+:Unit description: Fraction of nutrients reaching marine end compartment
+:Weight: 2.96
+:Weight (ex toxicity): 3.12
 
-## Water use
+## Eutrophication, freshwater
 
-Depletion of available water depending on local water scarcity and water needs
-for human activities and ecosystem integrity
+Eutrophication and potential impact on ecosystems caused by nitrogen and
+phosphorous emissions mainly due to fertilizers, combustion, sewage systems
 
-:EF characterization model: AWARE model
-:Model source: Boulay et al., 2018; UNEP 2016
-:Normalization Factor: 11500
-:Unit: m3 water eq of deprived water (Regionalised CFs)
-:Unit description: Weighted user deprivation potential
-:Weight: 8.51
-:Weight (ex toxicity): 9.03
+:EF characterization model: EUTREND model
+:Model source: Struijs et al., 2009 as applied in ReCiPe 2008
+:Normalization Factor: 1.61
+:Unit: kg P eq
+:Unit description: Fraction of nutrients reaching freshwater end compartment
+:Weight: 2.8
+:Weight (ex toxicity): 2.95
+
+## Human toxicity, cancer
+
+Impact on human health caused by absorbing substances through the air, water,
+and soil. Direct effects of products on humans are not measured
+
+:EF characterization model: USEtox model
+:Model source: based on USEtox2.1 model (Fantke et al. 2017), adapted as in Saouter et al., 2018
+:Normalization Factor: 0.0000169
+:Unit: CTUh
+:Unit description: Comparative Toxic Unit for humans
+:Weight: 2.13
+
+## Ecotoxicity, freshwater
+
+Impact of toxic substances on freshwater ecosystems
+
+:EF characterization model: USEtox model
+:Model source: based on USEtox2.1 model (Fantke et al. 2017), adapted as in Saouter et al., 2018
+:Normalization Factor: 42700
+:Unit: CTUe
+:Unit description: Comparative Toxic Unit for ecosystems
+:Weight: 1.92
+
+## Human toxicity, non-cancer
+
+Impact on human health caused by absorbing substances through the air, water,
+and soil. Direct effects of products on humans are not measured
+
+:EF characterization model: USEtox model
+:Model source: based on USEtox2.1 model (Fantke et al. 2017), adapted as in Saouter et al., 2018
+:Normalization Factor: 0.00023
+:Unit: CTUh
+:Unit description: Comparative Toxic Unit for humans
+:Weight: 1.84
+
