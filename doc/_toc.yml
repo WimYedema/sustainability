@@ -31,6 +31,7 @@ parts:
     sections:
     - file: summaries/datacenters/walshCarbonBenefitsCloud2020
     - file: summaries/datacenters/bizoCarbonReductionOpportunity2019
+  - file: summaries/edge-computing/index
   - file: summaries/pef
   - file: summaries/belkhirAssessingICTGlobal2018
     sections:
