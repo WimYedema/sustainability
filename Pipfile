@@ -8,6 +8,9 @@ jupyter-book = "*"
 pexpect = "*" # Necessary for jupyter-book on linux
 pandas = "*"
 docutils="0.17.1" # to fix bibliograph
+plotly = "*"
+matplotlib = "*"
+ipympl = "*"
 
 [dev-packages]
 black = "*"
