@@ -20,6 +20,7 @@
     
     ![From {cite:t}`gill2018edge` ](Notes-on-edge-computing/gartner-edge-computing.png)
     
+    Some terms ()
     ```{list-table}
     :header-rows: 1
     * - Term
@@ -59,6 +60,12 @@
     
         As such, fog computing is a form of edge computing, but it only makes sense when there are
         many edge devices and great needs for signal fusion. 
+
+        According to {cite:t}`vargheseNextGenerationCloud2018`:
+        > The premise of fog computing is to leverage the existing compute resources on edge nodes, such as mobile base stations, routers and switches, or integrate additional computing capability to such (network) nodes along the entire data path between user devices and a cloud data center.
+
+        {cite:t}`jiangComputationOffloadingEdge2019` suggests fog computing focuses on the management of back-end distributed shared resources.
+
       - From (https://www.spiceworks.com/tech/edge-computing/articles/what-is-fog-computing/):
         * Smart homes / buildings
         * Smart cities
@@ -76,7 +83,18 @@
     * - Mist computing
       - Fog computing but with low computational resources.
       -
-    * - Mobile edge compute (MEC)
+    * - Mobile edge compute (MEC) {cite}`zhouAugmentationTechniquesMobile2018`
+      - According to {cite:t}`vargheseNextGenerationCloud2018` in mobile edge computing, computing at the edge is employed but it
+   
+        > is limited to the mobile cellular network and does not harness computing along the entire path taken by data in the network. In this computing model the radio access network may be shared with the aim to reduce network congestion.
+      -
+    * - Software-defined computing
+      - {cite:t}`vargheseNextGenerationCloud2018` seem to introduce this concept by building it on top of software defined networking. They propose software-defined computing to be a dynamic architecture that builds on and manages the communication, compute, and storage architecture; adapting and reconfiguring physical resources as needed to deliver the necessary QoS.
+      - 
+    * - Distributed computing
+      - 
+      - 
+    * - Federated computing
       -
       -
     ```
@@ -84,3 +102,27 @@
     ![From {cite:t}`iorgaFogComputingConceptual2018` ](Notes-on-edge-computing/fog-computing.png)
     
     From {cite:t}`iorgaFogComputingConceptual2018`
+
+In edge computing resources like compute, storage, and network are constrained
+and must be allocated. There are usually multiple optimization parameters and
+condition, like: resource usage quotas, energy consumption, latency.
+
+Compute offloading seems to be studied most for mobile edge computing
+{cite:t}`jiangComputationOffloadingEdge2019`( section A). Also according to that
+paper:
+
+> Due to the bandwidth fluctuations in wireless environments, static application
+> partitioning is not suitable for mobile platforms with fixed bandwidth, while
+> dynamic program partitioning will result in high overheads.
+
+- [ ]  What are the applications that are used for the research on edge computing?
+
+Later:
+
+> Computation offloading is regarded as an effective way to guarantee user
+> service quality by offloading the compute-intensive or latency-sensitive tasks
+> to the edge devices or nearby edge servers {cite}`machMobileEdgeComputing2017`
+
+It seems that most computation offloading is done just-in-time. If the
+application and processing environment is more stable offloading decision could
+be made upfront with potentially large gains.

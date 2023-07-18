@@ -16,10 +16,15 @@ parts:
     - file: iot-footprint/notes/Notes-on-edge-computing
     - file: iot-footprint/notes/Notes-on-manufacturing-footprint
     - file: iot-footprint/notes/Notes-on-ICT-GHG-emissions
+    - file: iot-footprint/notes/Notes-on-IOT
     - file: iot-footprint/equipment-lifecycle
   - file: computing-footprint/overview
     sections:
     - file: computing-footprint/environmental-impact-categories
+- caption: Study ideas
+  chapters:
+  - file: ideas/increase-lifetime-with-software
+  - file: ideas/green-machine-learning
 - caption: Appendices
   chapters:
   - file: bibliography
