@@ -32,7 +32,9 @@ parts:
     - file: summaries/datacenters/walshCarbonBenefitsCloud2020
     - file: summaries/datacenters/bizoCarbonReductionOpportunity2019
   - file: summaries/pef
-  - file: summaries/belkhir2018
+  - file: summaries/belkhirAssessingICTGlobal2018
+    sections:
+    - file: summaries/belkhir2018
 - caption: Appendices
   chapters:
   - file: bibliography
