@@ -3,12 +3,23 @@
 
 format: jb-book
 root: intro
-chapters:
-- file: footprint
-  sections:
-  - file: footprint-notes/Notes-on-edge-computing
-  - file: footprint-notes/Notes-on-manufacturing-footprint
-  - file: footprint-notes/Notes-on-ICT-GHG-emissions
-- file: equipment-lifecycle
-- file: environmental-impact-categories
-- file: bibliography
+options:
+  numbered: True
+parts:
+- caption: Active studies
+  numbered: True
+  maxdepth: 2
+  chapters:
+  - file: iot-footprint/overview
+    sections:
+    - file: iot-footprint/paper
+    - file: iot-footprint/notes/Notes-on-edge-computing
+    - file: iot-footprint/notes/Notes-on-manufacturing-footprint
+    - file: iot-footprint/notes/Notes-on-ICT-GHG-emissions
+    - file: iot-footprint/equipment-lifecycle
+  - file: computing-footprint/overview
+    sections:
+    - file: computing-footprint/environmental-impact-categories
+- caption: Appendices
+  chapters:
+  - file: bibliography

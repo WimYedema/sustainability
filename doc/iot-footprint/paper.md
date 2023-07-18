@@ -1,7 +1,8 @@
-# How to take environmental footprint into account when designing IoT solutions
+# Paper
 
+:Title: How to take environmental footprint into account when designing IoT solutions
 
-# Introduction
+## Introduction
 
 ````{margin}
 ```{admonition} Context
@@ -55,7 +56,7 @@ Moreover, and where applicable, we will also limit the scope to the ecological p
 
 *Approach*
 
-# Environmental footprint of ICT
+## Environmental footprint of ICT
 
 ````{margin}
 ```{note}
@@ -69,7 +70,7 @@ In 2021, the European Parliament group of the Greens/EFA published a report{cite
 
 [TODO: EU requirements on reporting on AI/ICT footprint.]
 
-# Anatomy of IOT systems
+## Anatomy of IOT systems
 
 An IOT system provides the means to efficiently and effectively manage a real-world process. Example of real-world processes include managing traffic in a city, managing crop yield in a farm, managing produce quality in a factory, and so on. To do so the system needs to sense or measure a variety of attributes at a variety of locations, deduce what is happening, make any necessary changes to the process, and report on the state of the whole. For example, in a greenhouse sensing  that the inside temperature is too high, the solar radiation is good, and the outside temperature is high, the system deduces that cooling is necessary, reports the situation, and activates the equipment.
 
@@ -82,19 +83,19 @@ There are many forms of computing and storage that can be used in an IOT system:
 3. **Edge computing.** The software is partitioned into tasks that need to happen close to the sensors and actuators, and other tasks. **There are servers on-premise for the edge tasks, but other tasks are done in a cloud data center. This is also where data is stored and training is done.
 4. **Fog / Mist computing.** The software is partitioned as in *edge computing*, but rather than centralizing the edge tasks to local servers the tasks are distributed among existing local compute like sensors, actuators, and network equipment. Data is still stored in cloud data centers where training happens.
 
-## Research questions
+### Research questions
 
 The question we wish to answer in this article is how to take ecological impact into account when designing IoT solutions. When does it make sense to use local edge computers, on-premise data servers, or compute services in the cloud? What are the conditions of this decision, and how frequently do they change? And, finally, would it make sense to change the location of compute dynamically, or is the rate or magnitude of change too low?
 
 As a working scenario we use a system where the edge is comprised of several IoT sensors and actuators, and some dashboards for aggregate data; where compute is done on the data streams for monitoring, control, and aggregation, and where historical data is recorded to train new (machine learning) models.
 
-# Environmental footprint of hardware
+## Environmental footprint of hardware
 
-## IT life cycle
+### IT life cycle
 
 There are four life cycle phases for IT equipment, each with a unique ecological impact: manufacturing, distribution, use, and end-of-life. The ecological impact of IT is dominated by the manufacturing phase{cite}`benqassemDigitalTechnologiesEurope2021`, mostly because of mineral and metal use. Unsurprisingly, greenhouse gas emissions dominate the ecological impact for IT usage. While relevant in general, in our comparison we will not take into account the differences in distribution phase, useful life, and end-of-life phase. We expect the impact to be negligible, and differences are greatly influenced by varying operating conditions or organizational policies.
 
-## Manufacturing
+### Manufacturing
 
 We must take manufacturing into account, given its impact. Throughout the lifespan of an IoT solution, IT equipment will probably be replaced several times. The main difference between the various scenarios is in where compute is done, and so in which servers are used at which location.
 
@@ -104,7 +105,7 @@ You could argue that the total manufacturing impact of a datacenter dwarfs the c
 
 To reduce the ecological impact of manufacturing, the solution should use as few computers as possible. It is better to increase the compute power of a computer than it is to add another low-power computer. If we were to take this to extremes we should increase the compute power at the sensors and actuators and forego additional servers. **[provide numbers and references to warrant this]**
 
-## Usage
+### Usage
 
 We can characterize the differences between the various solutions as follows:
 
@@ -112,7 +113,7 @@ We can characterize the differences between the various solutions as follows:
 - **Idle and stand-by time.** Cloud computing can be designed to allow for multi-tenant server usage and thereby reduce energy waste by reducing idle and stand-by time.
 - **Power-use Effectiveness (PUE).** The percentage of energy used for actual computation.
 
-### On-premise computing
+#### On-premise computing
 
 Studies sponsored by Microsoft, {cite}`walshCarbonBenefitsCloud2020`, and Amazon, {cite}`bizoCarbonReductionOpportunity2019`, and reaffirmed in {cite}`benqassemDigitalTechnologiesEurope2021`, indicate that cloud computing has a significantly better carbon footprint than traditional on-premise datacenters. The reasons are that traditional datacenters tend to be overprovisioned to cater for potential worst-case demands. Cloud vendors mitigate this through multi-tenancy. To quote Walsh: *“Generally, as the number of users increases, the ratio of the peak demand to the average demand for the user set decreases.”* 
 
@@ -144,11 +145,6 @@ Is this not just a LCA? No, given a LCA, how can we incorporate this in a softwa
 
 ## Notes
 
-[Notes on ICT GHG emissions](footprint-notes/Notes-on-ICT-GHG-emissions.md)
-
-[Notes on edge computing](footprint-notes/Notes-on-edge-computing.md)
-
-[Notes on manufacturing footprint](footprint-notes/Notes-on-manufacturing-footprint.md)
 
 1. Edge and fog computing focuses on minimizing latency, but in real-time situations the latency often does not need to be as small as possible, it just means that there are deadlines that need to be met. **What gains could we get from making edge/fog computing deadline-aware?**
     1. Could SDF be used for this?
