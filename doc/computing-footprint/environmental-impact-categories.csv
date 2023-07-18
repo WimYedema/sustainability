@@ -1,0 +1,17 @@
+﻿Impact Category Name,Weight,Weight (ex toxicity),Normalization Factor
+"Climate change, total",21.06,22.19,8100
+Particulate matter,8.96,9.54,0.000595
+Water use,8.51,9.03,11500
+"Resource use, fossils",8.32,8.92,65000
+Land use,7.94,8.42,819000
+"Resource use, minerals and metals",7.55,8.08,0.0636
+Ozone depletion,6.31,6.75,0.0536
+Acidification,6.2,6.64,55.6
+"Ionising radiation, human health",5.01,5.37,4220
+"Photochemical ozone formation, human health",4.78,5.1,40.6
+"Eutrophication, terrestrial",3.71,3.91,177
+"Eutrophication, marine",2.96,3.12,19.5
+"Eutrophication, freshwater",2.8,2.95,1.61
+"Human toxicity, cancer",2.13,,0.0000169
+"Ecotoxicity, freshwater",1.92,,42700
+"Human toxicity, non-cancer",1.84,,0.00023

@@ -3,7 +3,35 @@
 
 format: jb-book
 root: intro
-chapters:
-- file: markdown
-- file: notebooks
-- file: markdown-notebooks
+options:
+  numbered: True
+parts:
+- caption: Active studies
+  numbered: True
+  maxdepth: 2
+  chapters:
+  - file: iot-footprint/overview
+    sections:
+    - file: iot-footprint/paper
+    - file: iot-footprint/notes/Notes-on-edge-computing
+    - file: iot-footprint/notes/Notes-on-manufacturing-footprint
+    - file: iot-footprint/notes/Notes-on-ICT-GHG-emissions
+    - file: iot-footprint/notes/Notes-on-IOT
+    - file: iot-footprint/equipment-lifecycle
+  - file: computing-footprint/overview
+    sections:
+    - file: computing-footprint/environmental-impact-categories
+- caption: Study ideas
+  chapters:
+  - file: ideas/increase-lifetime-with-software
+  - file: ideas/green-machine-learning
+- caption: Literature summaries
+  chapters:
+  - file: summaries/datacenters/index
+    sections:
+    - file: summaries/datacenters/walshCarbonBenefitsCloud2020
+    - file: summaries/datacenters/bizoCarbonReductionOpportunity2019
+- caption: Appendices
+  chapters:
+  - file: bibliography
+  - file: links

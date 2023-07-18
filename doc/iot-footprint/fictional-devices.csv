@@ -1,0 +1,6 @@
+﻿Name,Power draw,Power use,Use emissions,Manufacturing emissions,Lifespan
+Sensor 1,1,8.76,4.21356,10,10
+Sensor 2,0.5,4.38,2.10678,20,10
+Disposal,0,0,0,3,1
+Camera 1,10,87.6,42.1356,20,4
+Camera 2,7,61.32,29.49492,30,5
