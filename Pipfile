@@ -7,6 +7,7 @@ verify_ssl = true
 jupyter-book = "*" 
 pexpect = "*" # Necessary for jupyter-book on linux
 pandas = "*"
+docutils="0.17.1" # to fix bibliograph
 
 [dev-packages]
 black = "*"

@@ -25,6 +25,13 @@ parts:
   chapters:
   - file: ideas/increase-lifetime-with-software
   - file: ideas/green-machine-learning
+- caption: Literature summaries
+  chapters:
+  - file: summaries/datacenters/index
+    sections:
+    - file: summaries/datacenters/walshCarbonBenefitsCloud2020
+    - file: summaries/datacenters/bizoCarbonReductionOpportunity2019
 - caption: Appendices
   chapters:
   - file: bibliography
+  - file: links
