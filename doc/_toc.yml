@@ -31,11 +31,16 @@ parts:
     sections:
     - file: summaries/datacenters/walshCarbonBenefitsCloud2020
     - file: summaries/datacenters/bizoCarbonReductionOpportunity2019
+  - file: summaries/ict-emissions/index
+    sections:
+    - file: summaries/ict-emissions/benqassemDigitalTechnologiesEurope2021
+    - file: summaries/ict-emissions/belkhirAssessingICTGlobal2018
+      sections:
+      - file: summaries/ict-emissions/belkhir2018
+    - file: summaries/ict-emissions/unepdtuGreenhouseGasEmissions2020
+    - file: summaries/ict-emissions/inrWeNR2021Release2021
   - file: summaries/edge-computing/index
   - file: summaries/pef
-  - file: summaries/belkhirAssessingICTGlobal2018
-    sections:
-    - file: summaries/belkhir2018
 - caption: Appendices
   chapters:
   - file: bibliography

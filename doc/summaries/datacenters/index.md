@@ -1,7 +1,7 @@
 # Literature on datacenters
 
-* {cite}`walshCarbonBenefitsCloud2020`: [Sustainability of Azure](walshCarbonBenefitsCloud2020)
-* {cite}`bizoCarbonReductionOpportunity2019`: [Sustainability of AWS](bizoCarbonReductionOpportunity2019)
+* {cite:t}`walshCarbonBenefitsCloud2020`: [Sustainability of Azure](walshCarbonBenefitsCloud2020)
+* {cite:t}`bizoCarbonReductionOpportunity2019`: [Sustainability of AWS](bizoCarbonReductionOpportunity2019)
 
 ## Summary
 

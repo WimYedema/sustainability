@@ -1,10 +1,10 @@
 # Literature on edge computing
 
-* {cite}`gill2018edge`
-* {cite}`jiangComputationOffloadingEdge2019`
-* {cite}`TrendReportEdge2021`
-* {cite}`huEdgeCentralCloud2019`
-* {cite}`machMobileEdgeComputing2017`
+* {cite:t}`gill2018edge`
+* {cite:t}`jiangComputationOffloadingEdge2019`
+* {cite:t}`TrendReportEdge2021`
+* {cite:t}`huEdgeCentralCloud2019`
+* {cite:t}`machMobileEdgeComputing2017`
 
 ## Summary
 
