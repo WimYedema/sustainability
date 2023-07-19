@@ -33,6 +33,7 @@ parts:
     - file: summaries/datacenters/bizoCarbonReductionOpportunity2019
   - file: summaries/ict-emissions/index
     sections:
+    - file: summaries/ict-emissions/bordageFiguresUnderstandingEnvironmental2021
     - file: summaries/ict-emissions/benqassemDigitalTechnologiesEurope2021
     - file: summaries/ict-emissions/belkhirAssessingICTGlobal2018
       sections:
