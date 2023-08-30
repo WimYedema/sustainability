@@ -11,6 +11,10 @@ docutils="0.17.1" # to fix bibliograph
 plotly = "*"
 matplotlib = "*"
 ipympl = "*"
+pyzotero = "*"
+python-dateutil = "*"
+itables = "*"
+pydata-sphinx-theme = "*"
 
 [dev-packages]
 black = "*"

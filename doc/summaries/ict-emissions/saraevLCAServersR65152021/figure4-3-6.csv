@@ -1,0 +1,41 @@
+Device,Part,GWP contribution,GHG emission
+R6515,Packaging,1,11.9
+R6515,PSU,2,30.9
+R6515,Chassis,2,33.6
+R6515,Fans,1,11.2
+R6515,SSDs,62,854.7
+R6515,Ethernet Cards,1,9.3
+R6515,Memory Bars,19,263.7
+R6515,Riser Cards,1,7.9
+R6515,Raid Cards,0,6.7
+R6515,Mainboard incl. CPU,11,145.2
+R7515,Packaging,1,11.9
+R7515,PSU,2,30.9
+R7515,Chassis,3,36.0
+R7515,Fans,1,11.2
+R7515,SSDs,62,854.7
+R7515,Ethernet Cards,1,9.3
+R7515,Memory Bars,19,263.7
+R7515,Riser Cards,0,0.0
+R7515,Raid Cards,0,6.7
+R7515,Mainboard incl. CPU,11,145.2
+R6525,Packaging,1,11.9
+R6525,PSU,2,30.9
+R6525,Chassis,2,36.0
+R6525,Fans,1,11.2
+R6525,SSDs,48,854.7
+R6525,Ethernet Cards,0,4.8
+R6525,Memory Bars,30,527.4
+R6525,Riser Cards,0,9.8
+R6525,Raid Cards,0,6.1
+R6525,Mainboard incl. CPU,16,277.4
+R7525,Packaging,1,11.9
+R7525,PSU,2,30.9
+R7525,Chassis,2,38.3
+R7525,Fans,1,11.2
+R7525,SSDs,48,854.7
+R7525,Ethernet Cards,0,4.8
+R7525,Memory Bars,30,527.4
+R7525,Riser Cards,0,5.6
+R7525,Raid Cards,0,6.1
+R7525,Mainboard incl. CPU,16,277.4

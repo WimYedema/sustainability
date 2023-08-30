@@ -1,0 +1,5 @@
+Device(ID),URL,base,peak,FPbase,FPpeak
+R6515,https://www.spec.org/cpu2017/results/res2019q3/cpu2017-20190831-17279.html,211,229,177,195
+R6525,https://www.spec.org/cpu2017/results/res2019q4/cpu2017-20190930-18858.html,377,405,354,391
+R7515,https://www.spec.org/cpu2017/results/res2019q4/cpu2017-20191014-19045.html,206,223,173,189
+R7525,https://www.spec.org/cpu2017/results/res2019q4/cpu2017-20191208-20251.html,418,452,361,392

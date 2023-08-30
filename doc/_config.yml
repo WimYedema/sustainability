@@ -49,7 +49,8 @@ parse:
   myst_dmath_double_inline: true # Allow display math ($$) within an inline context
 
 sphinx:
-  # extra_extensions:
+  extra_extensions:
+  - "sphinx.ext.todo"
   #   - "autoapi.extension"
   #   - "sphinx.ext.autodoc"
   #   - "sphinx.ext.napoleon"
@@ -77,3 +78,5 @@ sphinx:
     #nb_number_source_lines: True
     html_js_files: # to make plotly work
     - https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js
+    html_theme: pydata_sphinx_theme
+    todo_include_todos: true

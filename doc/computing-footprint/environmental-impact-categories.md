@@ -10,7 +10,7 @@ and their weighting and normalization factors:
 
 These categories are defined in {cite}`damianiunderstanding`,
 {cite}`salaDevelopmentWeightingApproach2018`,
-{cite}`fazioSupportingInformationCharacterisation2019`. The sections below gives a bit more detail {todo}`[verify the description]`:
+{cite}`fazioSupportingInformationCharacterisation2019`. The sections below gives a bit more detail
 
 :Description: From {cite}`damianiunderstanding`
 :EF characterization model: How the category was arrived at, from {cite}`fazioSupportingInformationCharacterisation2019`
@@ -20,6 +20,10 @@ These categories are defined in {cite}`damianiunderstanding`,
 :Unit description: Description of the unit, from {cite}`damianiunderstanding`
 :Weight: Importance in percent of this category among the other categories, from {cite}`salaDevelopmentWeightingApproach2018`
 :Weight (ex toxicity): Importance in percent of this category among the other categories when the toxicity categories are excluded, from {cite}`salaDevelopmentWeightingApproach2018`
+
+```{todo}
+Verify the descriptions of the Environmental impact categories.
+```
 
 ## Climate change, total
 

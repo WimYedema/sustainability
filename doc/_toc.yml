@@ -5,11 +5,11 @@ format: jb-book
 root: intro
 options:
   numbered: True
-parts:
-- caption: Active studies
-  numbered: True
-  maxdepth: 2
-  chapters:
+chapters:
+- file: active-studies
+  options:
+    maxdepth: 3
+  sections:
   - file: iot-footprint/overview
     sections:
     - file: iot-footprint/paper
@@ -21,12 +21,16 @@ parts:
   - file: computing-footprint/overview
     sections:
     - file: computing-footprint/environmental-impact-categories
-- caption: Study ideas
-  chapters:
+- file: ideas
+  options:
+    maxdepth: 3
+  sections:
   - file: ideas/increase-lifetime-with-software
   - file: ideas/green-machine-learning
-- caption: Literature summaries
-  chapters:
+- file: summaries
+  options:
+    maxdepth: 4
+  sections:
   - file: summaries/datacenters/index
     sections:
     - file: summaries/datacenters/walshCarbonBenefitsCloud2020
@@ -34,15 +38,22 @@ parts:
   - file: summaries/ict-emissions/index
     sections:
     - file: summaries/ict-emissions/bordageFiguresUnderstandingEnvironmental2021
+    - file: summaries/ict-emissions/pirsonAssessingEmbodiedCarbon2021
     - file: summaries/ict-emissions/benqassemDigitalTechnologiesEurope2021
     - file: summaries/ict-emissions/belkhirAssessingICTGlobal2018
       sections:
       - file: summaries/ict-emissions/belkhir2018
     - file: summaries/ict-emissions/unepdtuGreenhouseGasEmissions2020
     - file: summaries/ict-emissions/inrWeNR2021Release2021
+    - file: summaries/ict-emissions/saraevLCAServersR65152021
+      sections:
+      - file: summaries/ict-emissions/saraevLCAServersR65152021/analysis
   - file: summaries/edge-computing/index
   - file: summaries/pef
-- caption: Appendices
-  chapters:
+- file: appendices
+  options:
+    maxdepth: 3
+  sections:
   - file: bibliography
   - file: links
+  - file: todo

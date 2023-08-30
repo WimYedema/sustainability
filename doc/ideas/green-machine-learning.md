@@ -28,3 +28,11 @@ From https://learn.microsoft.com/en-us/azure/machine-learning/concept-ml-pipelin
 > intensive training can run on expensive GPU machines. By properly choosing which
 > step to run on which type of machines, the training cost can be significantly
 > reduced.
+
+## Some links
+
+* https://ourworldindata.org/grapher/artificial-intelligence-training-computation
+* https://ourworldindata.org/grapher/gpu-price-performance
+* https://ourworldindata.org/grapher/artificial-intelligence-number-training-datapoints
+* https://ourworldindata.org/grapher/artificial-intelligence-parameter-count
+* 
